@@ -1,0 +1,204 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.heading,
+.main,
+.container,
+.footing{
+	margin: 10px auto;
+}
+.heading{
+	height: 50px;
+	background-color: #F2F2F2;
+	border-top: 2px solid #dd5862;
+    border-bottom: 1px solid #e9e8e8;
+    margin-bottom: 60px;
+    line-height: 51px;
+}
+.logo{
+	margin-left: 180px;
+	float: left;
+}
+.logo a{
+	text-decoration:none;
+	color: #2d2d2d;
+}
+.nav {
+    float: left;
+    margin-left: 8px;
+    }
+.nav ul li{
+	float: left;
+	list-style-type: none;
+}
+.nav ul li a {
+    display: block;
+    margin-left: 25px;
+    color: #2d2d2d;
+    font-size: 16px;
+    text-decoration:none;
+}
+.search{
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    line-height: 49px
+}
+.search input{
+	border: 1px solid #e5e5e5;
+    border-radius: 19px;
+    font-size: 12px;
+    padding: 3px 10px 3px 30px;
+    width: 65px;
+}
+.search btn{
+	position: absolute;
+    left: 5px;
+    top: 15px;
+    font-size: 14px;
+    width: 18px
+}
+
+.login{
+	float: left;
+    margin-left: 420px;
+    text-decoration:none;
+}
+.login a{
+	text-decoration:none;
+	color: #2d2d2d;
+}
+.main{
+	height: 300px;
+	width: 960px;
+	background-color: white;
+	margin-bottom: 80px;
+}
+.main .cover{
+	float: left;
+    width: 480px;
+    height: 340px;
+    border-radius: 4px;
+  /*  border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;*/
+    margin-right: 55px;
+}
+.meta {
+	float: left;
+	width: 425px;
+	margin-top: 50px;
+}
+.meta .title{
+	text-decoration:none;
+	color: #2d2d2d;
+	font-size: 20px;
+}
+p{
+	margin-top: 25px;
+	font-size: 13px;
+}
+/*p {
+    display: block;/*display:block这个样式，只定义了P容器为一个块;*/
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+/*    分别定义p的上边距和下边距的数值是1倍字体高度，如10px像素的字，那么边距就为10px; */
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;/*定义为左右边距都为0PX*/
+}*/
+.date{
+    margin-top: 15px;
+    color: #9f9f9f;
+}
+.other{
+    margin-top: 30px;
+	text-align: right;
+}
+.other a{
+	color: #dd5862;
+	text-decoration:none;
+}
+.container{
+	height: 600px;
+	width: 960px;
+	background-color: bisque;
+/*	margin-bottom: 60px;*/
+}
+.left{
+	float: left;
+	width: 590px;
+	margin-right: 35px;
+}
+/*.item{
+	width: 590px;
+	height: 270px;
+}*/	
+.item .cover2{
+	float: left;
+	width: 220px;
+	height: 155.92px;
+	border-radius: 4px;
+	margin-right:25px ;
+}
+.wapper{
+	float: left;
+	width: 345px;
+	margin-top: 10px;
+}
+.wapper .title{
+	text-decoration:none;
+	margin-bottom: 10px;
+	font-size: 18px;
+    margin-top: 6px;
+    margin-left: 3px; 
+    color: #2d2d2d;
+}
+.meta2{
+	margin-top: 5px;
+	margin-left: 3px; 
+    color: #7d7d7d;
+    font-size: 13px;
+}
+.subsribe{
+    margin-top: 35px;
+}
+.right{
+	float: left;
+}
+.footing{
+	height: 160px;
+	background-color: #2d2d2d;
+    border-top: 1px solid #111;
+    margin-top: 90px;
+    padding: 35px 0;
+    width: 100%;
+}
+
+/*@media screen and (min-width: 960px) {
+	.main,
+	.container,
+	.footting{
+		width: 960px;
+	}
+	
+	.left,
+	.right{
+		float: left;
+		height: 500px;
+	}
+	.left{
+		 overflow:scroll ;
+		 overflow: hidden;
+		margin-right: 370px;
+		width: 590px;
+	}
+	.right{
+		width: 290px;
+	}
+	.container{
+		height: 500px;
+	}
+	}*/
