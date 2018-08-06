@@ -23,7 +23,14 @@
 }
 .logo a{
 	text-decoration:none;
-	color: #2d2d2d;
+}
+.logo h1 {
+	width: 32px;
+	height: 39px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: 0 -300px;
+	margin-top: 10px;
 }
 .nav {
     float: left;
@@ -44,7 +51,7 @@
     float: left;
     margin-left: 40px;
     position: relative;
-    line-height: 49px
+    line-height: 49px;
 }
 .search input{
 	border: 1px solid #e5e5e5;
@@ -55,12 +62,21 @@
 }
 .search btn{
 	position: absolute;
+	border: 0;
     left: 5px;
     top: 15px;
     font-size: 14px;
     width: 18px
 }
-
+.icon-search{
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+    background-image: url(../img/icon-common.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    background-position: -110px -240px;
+}
 .login{
 	float: left;
     margin-left: 420px;
@@ -122,31 +138,33 @@ p{
 	text-decoration:none;
 }
 .container{
-	height: 600px;
+	height: 2016px;
 	width: 960px;
-	background-color: bisque;
+	background-color: white;
 /*	margin-bottom: 60px;*/
 }
 .left{
 	float: left;
 	width: 590px;
-	margin-right: 35px;
+	margin-right: 80px;
 }
-/*.item{
-	width: 590px;
-	height: 270px;
-}*/	
+
 .item .cover2{
 	float: left;
 	width: 220px;
 	height: 155.92px;
 	border-radius: 4px;
 	margin-right:25px ;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 .wapper{
 	float: left;
 	width: 345px;
+	height: 155.92px;
 	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 .wapper .title{
 	text-decoration:none;
@@ -163,10 +181,75 @@ p{
     font-size: 13px;
 }
 .subsribe{
-    margin-top: 35px;
+    margin-top: 25px;
+    margin-left: 5px;
+    font-size: 14px;
+    
 }
+
 .right{
 	float: left;
+	width: 290px;
+}
+.righthead{
+	float: left;
+	width: 290px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.right2{
+    float: left;
+    width: 290px;
+    height: 290px;
+}
+.item2{
+    float: left;
+    width: 290px;
+    height: 31px;
+    margin-bottom: 25px;
+}
+.item2 .cover3{
+	float: left;
+	width: 46px;
+	height: 32px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-top: 18px;
+	margin-right: 5px;
+}
+.rightwapper{
+	float: left;
+	width: 231px;
+	height:13px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.rightwapper .title{
+	text-decoration:none;
+	margin-bottom: 10px;
+	font-size: 13px;
+    margin-top: 6px;
+    margin-left: 3px; 
+    color: #2d2d2d;
+}
+.meta3{
+	margin-top: 5px;
+	margin-left: 3px; 
+    color: #7d7d7d;
+    font-size: 12px;
+}
+.block{
+	width: 290px;
+	height: 57px;
+	background-color:#F8F8F8;;
+    margin-top: 340px;
+    text-align: center;
+}
+.submit{
+    font-size: 14px;
+    color: #7d7d7d;
+    text-decoration:none;
+    line-height: 60px;
 }
 .footing{
 	height: 160px;
@@ -176,29 +259,140 @@ p{
     padding: 35px 0;
     width: 100%;
 }
+.aboutleft{
+    float: left;
+    width: 380px;
+    margin-left: 200px;
+}
+.aboutleft .foothead{
+    color: #FFF;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.aboutleft p{
+    margin-top: 6px;
+    margin-right: 0px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+}
+.aboutleft .footabout {
+     color: #e1e1e1;
+}
+a{
+	text-decoration: none;
+}
+.aboutmain{
+    float: left;
+    width: 305px;
+}
+.aboutmain .foothead{
+    color: #FFF;
+    font-size: 14px;
+}
+.aboutmain .app{
+    color: #e1e1e1;
+}
+.icon-ios{
+	display: inline-block;/*将对象呈递为内联对象，但是对象的内容作为块对象呈递*/
+	vertical-align: middle;
+	/*所有浏览器都支持 vertical-align 属性。vertical-align 属性设置元素的垂直对齐方式。
+	该属性定义行内元素的基线相对于该元素所在行的基线的垂直对齐。允许指定负长度值和百分比值。
+	这会使元素降低而不是升高。在表单元格中，这个属性会设置单元格框中的单元格内容的对齐方式。*/
+    width: 20px;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: 0 -90px;
+}
+.icon-android{
+    display: inline-block;
+	vertical-align: middle;
+    width: 20px;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: 0 -30px;
+}
+.icon-wp{
+    display: inline-block;
+	vertical-align: middle;
+    width: 20px;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: 0 -60px;
+}
 
-/*@media screen and (min-width: 960px) {
-	.main,
-	.container,
-	.footting{
-		width: 960px;
-	}
-	
-	.left,
-	.right{
-		float: left;
-		height: 500px;
-	}
-	.left{
-		 overflow:scroll ;
-		 overflow: hidden;
-		margin-right: 370px;
-		width: 590px;
-	}
-	.right{
-		width: 290px;
-	}
-	.container{
-		height: 500px;
-	}
-	}*/
+.aboutright{
+     float: right;
+     width: 275px;
+     text-align: right;
+     margin-right: 180px;
+}
+.aboutright .foothead{
+    color: #FFF;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.aboutright .items{
+	margin-bottom: 40px;
+}
+
+.qq{
+    display: inline-block;
+	vertical-align: middle;
+    width: 20px;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: -110px -270px;
+}
+.wechat{
+    display: inline-block;
+	vertical-align: middle;
+    width: 20px;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: 0px -270px;
+}
+.weibo{
+    display: inline-block;
+	vertical-align: middle;
+    width: 20px;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: 0px -210px;
+}
+.douban{
+    display: inline-block;
+	vertical-align: middle;
+    width: 20px;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position: 0px -240px;
+}
+.aboutright .icp{
+    color:#e1e1e1 ;
+}
+.aboutright .slogan{
+    margin-top: 15px;
+}
+.icon-slogan{
+    display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position:0 0 ;
+}
+#backTop{
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	background: url("./img/icon-common.png");
+	background-repeat: no-repeat;
+	background-position:0 -360px;
+}
